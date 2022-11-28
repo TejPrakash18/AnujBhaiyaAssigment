@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        table,td,tr{
+            border: 3px solid black;
+            border-collapse: collapse;
+        }
+        .table-row, .lecture, .subject{
+            height: 2rem;
+            width: 8rem;
+            text-align: center;
+        }
+        thead{
+            font-weight: bold;
+        }
+        .lecture{
+            font-weight: bold;
+        }
+        .green{
+            background-color: mediumaquamarine;
+           
+        }
+        .blue
+        {
+            border-left: 3px solid red;
+            background-color: burlywood;
+            border-right: 3px solid red;
+            
+        }
+        .left{
+            border-right:3px solid red;
+        }
+        .bottom{
+            border-bottom: 3px solid red;
+        }
+        .top{
+            border-top: 3px solid red;
+        }
+
+    </style>
+
+</head>
+<body>
+    <table>
+        <h1>School Timetable</h1>
+        <thead>
+            <tr class="table-row">
+                <td></td>
+                <td>Mon</td>
+                <td class="green">Tues</td>
+                <td>Wed</td>
+                <td class="green left">Thurs</td>
+                <td class="blue top">Fri</td>
+                <td>Sat</td>
+                <td>Sun</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="table-row">
+                <td class="lecture">1st Period</td>
+                <td class="subject">English</td>
+                <td class="subject green"> </td>
+                <td class="subject"> </td>
+                <td class="subject green left">German</td>
+                <td class="subject blue ">dutch</td>
+                <td class="subject"> </td>
+                <td class="subject"> </td>
+            </tr>
+            <tr class="table-row">
+                <td class="lecture">2nd Period</td>
+                <td class="subject">English</td>
+                <td class="subject green">English</td>
+                <td class="subject"> </td>
+                <td class="subject green left">German</td>
+                <td class="subject blue">dutch</td>
+                <td class="subject"> </td>
+                <td class="subject"> </td>
+            </tr>
+            <tr class="table-row">
+                <td class="lecture">3rd Period</td>
+                <td class="subject"></td>
+                <td class="subject green">German </td>
+                <td class="subject"> </td>
+                <td class="subject green left">German</td>
+                <td class="subject blue">dutch</td>
+                <td class="subject"> </td>
+                <td class="subject"> </td>
+            </tr>
+            <tr class="table-row"> 
+                <td class="lecture">4th Period</td>
+                <td class="subject"></td>
+                <td class="subject green">English </td>
+                <td class="subject"> </td>
+                <td class="subject green left">English</td>
+                <td class="subject blue bottom">dutch</td>
+                <td class="subject"> </td>
+                <td class="subject"> </td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
